@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#f5f5f5">
+
+    <!-- Company Logo -->
+
+    <!-- Company Name -->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="162dp"
+        android:layout_height="152dp"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <TextView
+        android:id="@+id/companyName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Amazon Web Services"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#000"/>
+
+    <!-- Employee Information -->
+    <TextView
+        android:id="@+id/employeeName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Employee Name: Sai Uttej"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/jobTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Job Title: Software Engineer"
+        android:textSize="18sp"/>
+
+    <!-- Horizontal Line -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000"
+        android:layout_marginVertical="8dp" />
+
+    <TextView
+        android:id="@+id/phoneNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone: +91 9686538203"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address: 123 Dream Street, City, Country"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email: saiuttej2k03@gmail.com"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/website"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Website: www.aws.amazon.com"
+        android:textSize="18sp" />
+
+</LinearLayout>
